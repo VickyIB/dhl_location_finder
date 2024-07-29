@@ -1,0 +1,10 @@
+dhl_location_finder.settings:
+  type: config_object
+  label: 'DHL Location Finder settings'
+  mapping:
+    dhl_api_key:
+      type: string
+      label: 'DHL API Key'
+    dhl_api_base_url:
+      type: string
+      label: 'DHL API base URL'
